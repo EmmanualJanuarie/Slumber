@@ -1,0 +1,77 @@
+/*--deco being done to body--*/
+body{
+    background-image: url('/code/imgs/dream.jpg');
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+
+}
+#EnterText{
+display:block;
+border-radius: 5%;
+}
+
+ section {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    top:50%;
+} 
+
+#GUI-form{
+    
+    position: relative;
+    width:25%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    border-radius: 20px;
+    background: transparent;
+   
+}
+#Center{
+    position: relative;
+    left:38%;
+}
+h2{
+    font-size: 2em;
+    color:black;
+    text-align: center;
+}
+
+input{
+    position: relative;
+    margin: 30px 0;
+    width: 315px;
+    border-radius: 1px;
+    background: transparent;
+}
+.input label{
+    position:absolute;
+     top:25%;
+    left:2px; 
+    color: black;
+    font-size:1em;
+    pointer-events: none;
+    
+}
+textarea{
+    width:400px;
+    border-radius: 5px;
+    background: #E4EBF5;
+}
+
+button{
+    position:relative;
+    left:25%;
+    width:200px;
+    border-radius: 6px;
+    
+}
+
+#logo{
+    color: Black;
+
+}

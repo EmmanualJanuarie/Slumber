@@ -1,0 +1,41 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>Dream Tracker</title>
+        <link rel = "stylesheet" type = "text/css" href = "/code/css/Dream.css">
+    </head>
+    <body>
+        <left id="logo">
+            <h1>
+                <P>Slumber.</P>
+            </h1>
+        </left>
+    <section>
+            
+        <div id="GUI-form">
+            <div id="GUI-data">
+                 <form action = "/api/user" method = "post">
+                        <h2>Slumber.</h2>
+                      <!--------Web Form Input and Button [Start]--------->
+                        <div id = "input">
+                            <label for = "" >Name:</label>
+                            <input type = "text" name = "Username" placeholder = "FirstName" size = "10" maxlength= "" required>   
+                        </div>
+                        <div id = "input">
+                            <label for = "">Dates:</label>
+                            <input type = "text" name = "CurrentDate" placeholder = "Date" size = "11" maxlength="10" id = "name"  required>
+                        </div>
+                        <div id = "input">
+                            <textarea  name = "DreamEntry" placeholder = "Dream__section" col = "10" rows = "10" id = "txtsect" ></textarea> 
+                        </div>
+                        <div id = "button">
+                            <button type = "Submit" name = "btnUpload">UPLOAD</button>
+                        </div>
+                        <!--------Web Form Input and Button [End]--------->
+                    </form>
+             </div>
+        </div>
+    </section>
+
+    </body>
+</html>
